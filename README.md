@@ -58,7 +58,7 @@ Require files with the given EXTENSION after requiring MODULE.
 Type: `String[]`<br>
 Default: `*[]*`<br>
 Example: `['js:babel-core/register']`<br>
-To passe options to the compiler use `[[String, options]]`<br>
+To pass options to the compiler use `[[String, options]]`<br>
 Example: `[ ['js:babel-register', { ignore: [] }] ]`
 
 ### failAmbiguousDefinitions
